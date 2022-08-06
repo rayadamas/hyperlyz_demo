@@ -11,9 +11,9 @@ This repository contains a [[demo]] that allows you to select from a number of *
 ---
 ### Instructions
 - To view the **ANALYZER**:
- - choose your **SOUND** input
- - click the **PLAY** button
- - the **GRAPH** will appear on the screen, moving from right to left.
+ - [ ] choose your **SOUND** input
+ - [ ] click the **PLAY** button
+ - [ ] the **GRAPH** will appear on the screen, moving from right to left.
 - You can stop the motion by clicking the **PAUSE** button on the **AUDIO PLAYER**.
 
 ---
@@ -49,7 +49,7 @@ To learn more about Next.js, take a look at the following resources:
 - [ ] **🎤🎵🎤 On-chain Music ecosystems**
  - Exciting and innovative use of tools and strategies already out. Best on-chain Music hacks.
 - [ ] **💫👩‍🔬💫 NFT experiments**
-- Wild creative code, art, with an intersection of code, art and NFTs in general.
+- [ ] Wild creative code, art, with an intersection of code, art and NFTs in general.
 
 ---
 ### Live App: ______
