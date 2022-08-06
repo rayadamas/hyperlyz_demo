@@ -4,7 +4,6 @@
 **Feel the music, see the music**, a creative display of on-chain creativity, anybody can interact with for free.
 People can come and interact with **NFT Music**, create, and people can also fork🍴 the code for their structures🏗.
 
-A Front-end website for an NFT project whose Minimum Valuable Product enables a person to:
 - upload audio or select a piece of on-chain music (Zora API)
 - interpret a visualizer for said music,
 - then, behind the scenes, it utilize zora starter kit and editions to mint editions to ZORA contract.
