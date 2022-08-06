@@ -31,37 +31,23 @@ useEffect(() => {
       <Header />
       <main className="h-full flex flex-col flex-wrap items-center justify-center  ">
         <div className="mt-0 sm:mt-10 flex flex-col flex-wrap items-center">
-          <div className=" text-center mb-10 py-8 px-4 border-[20px] border-double border-[#4d44a6] bg-[#183eb6] text-[#000000] font-bold font-roboto text-5xl sm:text-7xl h-fit  w-9/12 lg:w-fit flex flex-row justify-center items-center" >
-            Hyperlyz
-          </div>
-
           <div className="fileDrop">
             <div className="dropSplash">
             <div className="audioLoad">
-              <img src="..public/assets/analyzer.png" style={{width: "100%", height: "auto"}}/>
-              </div>
+              <div class="flex justify-center items-center w-full">
+                <label for="dropzone-file" class="flex flex-col justify-center items-center w-full h-64 bg-black rounded-lg border-2 border-gray-300 border-dashed cursor-pointer dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+                  <div class="flex flex-col justify-center items-center pt-5 pb-6">
+                    <svg aria-hidden="true" class="mb-3 w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
+                    <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to upload</span> or drag and drop</p>
+                  </div>
+                  <input id="dropzone-file" type="file" class="hidden"/>
+                </label>
+              </div> 
             </div>
           </div>
-
-          <div className=" py-8 border-[16px] border-double border-[#4d44a6] mt-5 sm:mt-20 bg-[#183eb6] text-[#000000] h-fit w-7/12 flex flex-row flex-wrap justify-center ">
-            <div className="mx-2 sm:mx-0 text-center font-roboto font-bold text-3xl sm:text-5xl w-fit flex flex-row justify-center " >
-              visulize
-            </div>
-            <div className="basis-full h-0"></div>
-            <Link href="/decisions">
-              { userAddress === "" ? (
-              <button disabled={true}  className="rounded-3xl font-bold text-xl sm:text-2xl mt-5 py-3 p-3 w-fit h-fit  flex flex-row justify-center justify-items-center border-[4px] border-solid border-[#119ac1] text-[#000000] bg-[#183eb6]" >
-                C L O S E D
-              </button>
-              ) : (
-              <button  disabled={false} className="rounded-3xl font-bold text-xl sm:text-2xl mt-5 py-3 p-3 w-fit h-fit  flex flex-row justify-center justify-items-center border-[4px] border-solid  border-[#119ac1] bg-[#183eb6] text-[#000000] hover:text-[#5fa6bb]" >
-                E N T E R
-              </button>
-              )}        
-            </Link>
-          </div> 
         </div>
-        <Footer/>
+      </div>
+      <Footer/>
       </main>
     </div>
   );
