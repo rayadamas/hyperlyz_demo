@@ -9,8 +9,13 @@ People can come and interact with **NFT Music**, create, and people can also for
 - then, behind the scenes, it utilize zora starter kit and editions to mint editions to ZORA contract.
 
 ### Description:
-This repository contains a [[demo]] that allows you to select a number of **Music NFTs** where each has unique and interesting patterns for you to observe.
+This repository contains a [[demo]] that allows you to select from a number of **Music NFTs** (using Zora API) where each has unique and interesting patterns for you to observe.
 Additionally, *you can mint your own audio files*.
+
+- upload audio or select a piece of on-chain music (Zora API)
+- interpret a visualizer for said music,
+- then, behind the scenes, it utilize zora starter kit and editions to mint editions to ZORA contract.
+
 
 ---
 ### **Instructions**
@@ -64,10 +69,10 @@ Additionally, *you can mint your own audio files*.
 - Wild creative code, art, with an intersection of code, art and NFTs in general.
 
 ---
-## Live App: ______👈
+## Live App: ______
 
 ---
-## Demo:  ______👈👇
+## Demo:  ______
 
 ---
 ## MVP Sketch
@@ -98,10 +103,11 @@ Additionally, *you can mint your own audio files*.
  - **Application Design:** [دياموند.eth](https://twitter.com/0xBey)
   - **Github:** https://github.com/rayadamas
 
-# Credits
+# Credits (editing)
 1.  The code for creating the spectrograms borrows heavily from [this work](https://github.com/borismus/spectrogram) by Boris Smus.
-2.  Song recording by ______👈
-3.  Song recording by ______
+2.  Sweetman.eth music metadata standard
+4.  Song recording by ______👈
+5.  Song recording by ______👈
 -------------------------------------------------------------------------------------------------------------------------------------------------
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-web3-frontend`](https://github.com/dhaiwat10/create-web3-frontend).
 
