@@ -2,11 +2,7 @@
 ---
 ## About
 **Feel the music, see the music**, a creative display of on-chain creativity, anybody can interact with for free.
-People can come and interact with **NFT Music**, create, and people can also fork🍴 the code for their structures🏗.
-
-- upload audio or select a piece of on-chain music (Zora API)
-- interpret a visualizer for said music,
-- then, behind the scenes, it utilize zora starter kit and editions to mint editions to ZORA contract.
+People can come and interact with **NFT Music**, create by utilizing zora starter kit and editions to mint editions to ZORA contract, and people can also fork🍴 the code for their structures🏗. 
 
 ### Description:
 This repository contains a [[demo]] that allows you to select from a number of **Music NFTs** (using Zora API) where each has unique and interesting patterns for you to observe.
