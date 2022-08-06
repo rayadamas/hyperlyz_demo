@@ -29,26 +29,60 @@ useEffect(() => {
         <meta name="og:title" content="hype" />
       </Head>    
       <Header />
+
       <main className="h-full flex flex-col flex-wrap items-center justify-center  ">
         <div className="mt-0 sm:mt-10 flex flex-col flex-wrap items-center">
-          <div className="fileDrop">
-            <div className="dropSplash">
-            <div className="audioLoad">
-              <div class="flex justify-center items-center w-full">
-                <label for="dropzone-file" class="flex flex-col justify-center items-center w-full h-64 bg-gray-300 rounded-lg border-2 border-black border-dashed cursor-pointer dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
-                  <div class="flex flex-col justify-center items-center pt-5 pb-6">
-                    <svg aria-hidden="true" class="mb-3 w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
-                    <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">  Click to upload audio</span> (or drag and drop)  </p>
-                  </div>
-                  <input id="dropzone-file" type="file" class="hidden"/>
-                </label>
-                <img src="../public/assets/analyzer.png" className="dropzone-image" />
-                
-              </div> 
-            </div>
+        <div className="fileDrop">
+          <div className="dropSplash"
+          style={{
+            overflow: "hidden",
+            height: "min-content",
+            width: "auto",
+            transform: "translate(-50%, -50%)",
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            background: "white"
+          }}
+          >
+          <img className="audioDrop"
+          src="../public/assets/zorb_purp.png"
+          style={{
+            width: 400,
+            maxWidth: "95vw",
+            height: "auto",
+            filter: "blur(10px)"
+          }}
+          />
+          </div>
+          <div style={{ zIndex: 1, pointerEvents: "none" }}>
+            <svg
+            width={72}
+            height={72}
+            viewBox="0 0 72 72"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            >
+              <path 
+                d="M72 36C72 55.8823 55.8823 72 36 72C16.1177 72 0 55.8823 0 36C0 16.1177 16.1177 0 36 0C55.8823 0 72 16.1177 72 36Z"
+                fill="white"
+              />
+              <path 
+                d= "M34.5 50.0859V20.4141H38.5078V50.0859H34.5ZM21.6562 37.2422V33.2578H51.3516V37.2422H21.6562Z" 
+                fill="#B7B7B7"
+              />
+            </svg>
+          </div>
+          <span
+          style={{ opacity: 1, zIndex: 1, color: "white", pointerEvents: "none" }}
+          > 
+          Turn on, tune in, drop audio
+          </span>
+          <span style={{ color: "white", opacity: "0.75", pointerEvents: "none" }}> .mp3 &amp; .wav accepted
+          </span>
+          <input type="file" hidden="" accept=".png, .jpg, .mp3, .wav" />
           </div>
         </div>
-      </div>
       </main>
     </div>
   );
