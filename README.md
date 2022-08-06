@@ -8,7 +8,7 @@ People can come and interact with **NFT Music**, create  and people can also for
 
 This repository contains a [[demo]] that allows you to select from a number of **Music NFTs** (using ZORA API) where each has unique and interesting patterns for you to observe. Additionally, *you can mint your own audio files by utilizing ZORA starter kit and editions to mint editions to ZORA contract*
 ---
-### **Instructions** ***to be edited***
+### Instructions
 - To view the **ANALYZER**:
  - choose your **SOUND** input
  - click the **PLAY** button
@@ -30,7 +30,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-## Learn More
+### Learn More
 
 To learn more about wagmi, take a look at the following resources:
 
@@ -42,7 +42,7 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 ---
-#### Category:
+### Category:
 - [ ] 🌜🌞🌛 **ZORA protocol and API** **[Hyperstructures]([https://jacob.energy/hyperstructures.html](https://jacob.energy/hyperstructures.html))**
  - Core to ZORA is the ability for anyone to fork, mix, fix, and create NFT marketplaces leveraging ZORA's marketplace protocol.
 - [ ] **🎤🎵🎤 On-chain Music ecosystems**
@@ -51,13 +51,13 @@ To learn more about Next.js, take a look at the following resources:
 - Wild creative code, art, with an intersection of code, art and NFTs in general.
 
 ---
-## Live App: ______
+### Live App: ______
 
 ---
-## Demo:  ______
+### Demo:  ______
 
 ---
-## MVP Sketch
+### MVP Sketch
 #### Welcome
 ![[CREATE WELCOME.png]]
 #### Choose SONG
@@ -69,7 +69,7 @@ To learn more about Next.js, take a look at the following resources:
 #### BROWSE MENU
 
 ---
-# Team
+### Team
 - **Valerie Andy**
  - **Fullstack/Creative Code:** [valcoholics.eth ⛰](https://twitter.com/valcoholics1)
   - **Github:** [github.com/Valcoholics](https://github.com/Valcoholics)
@@ -85,7 +85,7 @@ To learn more about Next.js, take a look at the following resources:
  - **Application Design:** [دياموند.eth](https://twitter.com/0xBey)
   - **Github:** https://github.com/rayadamas
 ---
-# Credits (editing)
+### Credits (editing)
 1.  The code for creating the spectrograms borrows heavily from [this work](https://github.com/borismus/spectrogram) by Boris Smus.
 2.  Sweetman.eth music metadata standard
 4.  Song recording by ______👈
