@@ -16,7 +16,7 @@ This repository contains a [[demo]] that allows you to select from a number of *
 - You can stop the motion by clicking the **PAUSE** button on the **AUDIO PLAYER**.
 
 ---
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
@@ -84,13 +84,10 @@ To learn more about Next.js, take a look at the following resources:
 - **Diamond Ray**
  - **Application Design:** [دياموند.eth](https://twitter.com/0xBey)
   - **Github:** https://github.com/rayadamas
-
+---
 # Credits (editing)
 1.  The code for creating the spectrograms borrows heavily from [this work](https://github.com/borismus/spectrogram) by Boris Smus.
 2.  Sweetman.eth music metadata standard
 4.  Song recording by ______👈
 5.  Song recording by ______👈
 -------------------------------------------------------------------------------------------------------------------------------------------------
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-web3-frontend`](https://github.com/dhaiwat10/create-web3-frontend).
-
-You can check out [the create-web3-frontend GitHub repository](https://github.com/dhaiwat10/create-web3-frontend) - your feedback and contributions are welcome!
