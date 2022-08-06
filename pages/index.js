@@ -42,6 +42,8 @@ useEffect(() => {
                   </div>
                   <input id="dropzone-file" type="file" class="hidden"/>
                 </label>
+                <img src="../public/assets/analyzer.png" className="dropzone-image" />
+                
               </div> 
             </div>
           </div>
