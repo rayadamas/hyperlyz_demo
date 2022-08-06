@@ -1,7 +1,7 @@
 # HyperLyz
 ---
 ## About
-**Feel the music, see the music**, an creative display of on-chain creativity, anybody can interact with for free.
+**Feel the music, see the music**, a creative display of on-chain creativity, anybody can interact with for free.
 People can come and interact with **NFT Music**, create, and people can also fork🍴 the code for their structures🏗.
 
 A Front-end website for an NFT project whose Minimum Valuable Product enables a person to:
