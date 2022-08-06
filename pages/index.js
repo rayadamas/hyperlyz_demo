@@ -23,7 +23,7 @@ useEffect(() => {
 })
 
   return (
-    <div className="text-[#1a1b0a] bg-[url('../public/assets/heaven-b-cropped.png')] bg-repeat  min-h-screen h-screen">
+    <div className="text-[#1a1b0a] bg-[url('../public/assets/background.jpg')] bg-repeat  min-h-screen h-screen">
       <Head>
         <meta name="description" content="Feel the music, see the music." />
         <meta name="og:title" content="hype" />
