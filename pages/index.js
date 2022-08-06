@@ -77,6 +77,7 @@ useEffect(() => {
           style={{ opacity: 1, zIndex: 1, color: "white", pointerEvents: "none" }}
           > 
           Turn on, tune in, drop audio
+
           </span>
           <span style={{ color: "white", opacity: "0.75", pointerEvents: "none" }}> .mp3 &amp; .wav accepted
           </span>
