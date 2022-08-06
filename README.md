@@ -7,6 +7,7 @@ People can come and interact with **NFT Music**, create  and people can also for
 ### Description:
 
 This repository contains a [[demo]] that allows you to select from a number of **Music NFTs** (using ZORA API) where each has unique and interesting patterns for you to observe. Additionally, *you can mint your own audio files by utilizing ZORA starter kit and editions to mint editions to ZORA contract*
+
 ---
 ### Instructions
 - To view the **ANALYZER**:
