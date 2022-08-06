@@ -10,10 +10,11 @@ This repository contains a [[demo]] that allows you to select from a number of *
 
 ---
 ### Instructions
+
 - To view the **ANALYZER**:
- - [ ] choose your **SOUND** input
- - [ ] click the **PLAY** button
- - [ ] the **GRAPH** will appear on the screen, moving from right to left.
+- [ ] choose your **SOUND** input
+- [ ] click the **PLAY** button
+- [ ] the **GRAPH** will appear on the screen, moving from right to left.
 - You can stop the motion by clicking the **PAUSE** button on the **AUDIO PLAYER**.
 
 ---
