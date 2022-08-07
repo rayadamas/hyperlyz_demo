@@ -41,9 +41,8 @@ useEffect(() => {
             transform: "translate(-50%, -50%)",
             position: "absolute",
             top: "50%",
-            left: "50%",
-            background: "white",
-            opacity:"0" // hide the drop splash
+            left: "0%",
+            background: "white"
           }}
           >
           <img className="audioDrop"
@@ -53,17 +52,18 @@ useEffect(() => {
             maxWidth: "95vw",
             height: 400,
             filter: "blur(10px)",
-            display: 'flex', justifyContent: 'center'
+            display: "flex", justifyContent: "center"
           }}
           />
           </div>
-          <div style={{ zIndex: 1, pointerEvents: "none", display: "flex", justifyContent: "center" }}>
+          <div style={{ zIndex: 1, pointerEvents: "none", display: "flex", justifyContent: 'center' }}>
             <svg
             width={64}
             height={64}
             viewBox="0 0 72 72"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            
             >
               <path 
                 d="M72 36C72 55.8823 55.8823 72 36 72C16.1177 72 0 55.8823 0 36C0 16.1177 16.1177 0 36 0C55.8823 0 72 16.1177 72 36Z"
@@ -76,12 +76,13 @@ useEffect(() => {
             </svg>
           </div>
           <span
-          style={{ margin: 3/12,opacity: 1, zIndex: 1, color: "white", pointerEvents: "none", display: 'flex', justifyContent: 'center' }}
+          style={{ opacity: 1, zIndex: 1, display: 'flex', justifyContent: 'center', color: "white", pointerEvents: "none" }}
           > 
+
           Drop audio
 
           </span>
-          <span style={{ margin: 3/12, color: "white", opacity: "0.75", pointerEvents: "none", display: 'flex', justifyContent: 'center' }}> .mp3 &amp; .wav accepted
+          <span style={{ color: "white", opacity: "0.75", pointerEvents: "none" }}> .mp3 accepted
           </span>
           <input type="file" hidden="" accept=".mp3" />
           </div>
