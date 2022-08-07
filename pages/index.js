@@ -57,7 +57,7 @@
             <span style={{ margin: 3/12 ,color: "white", opacity: "0.75", pointerEvents: "none",display: "flex", justifyContent:"center"}}> .mp3 accepted
             </span>
             <div class="flex items-center justify-center">
-            <input type="file" hidden="" accept=".mp3" />
+            <input type="file" hidden="" accept=".m4a, .mp3" />
             </div>
             </div>
           </div>
