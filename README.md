@@ -1,4 +1,4 @@
-# HyperLyz
+# HyperLyz [Draft]
 ---
 ## About
 **Feel the music, see the music**, a creative display of on-chain creativity, anybody can interact with for free.
@@ -6,7 +6,7 @@ People can come and interact with **NFT Music**, create  and people can also for
 
 ### Description:
 
-This repository contains a [[demo]] that allows you to select from a number of **Music NFTs** (using ZORA API) where each has unique and interesting patterns for you to observe. Additionally, *you can mint your own audio files by utilizing ZORA starter kit and editions to mint editions to ZORA contract*
+This repository contains a demo that allows you to select from a number of **Music NFTs** (using ZORA API) where each has unique and interesting patterns for you to observe. Additionally, *you can mint your own audio files by utilizing ZORA starter kit and editions to mint editions to ZORA contract*
 
 ---
 ### Instructions
@@ -53,7 +53,7 @@ To learn more about Next.js, take a look at the following resources:
 - [ ] Wild creative code, art, with an intersection of code, art and NFTs in general.
 
 ---
-### Live App: ______
+### Live App: https://hyperlyz.vercel.app
 
 ---
 ### Demo:  ______
@@ -66,7 +66,7 @@ To learn more about Next.js, take a look at the following resources:
 ![[CHOOSE SONG.png]]
 #### Generate ART
 ![[GEN ART.png]]
-#### Create SMART CONTRACT
+#### Create Zora Editions
 ![[CREATE SC.png]]
 #### BROWSE MENU
 
@@ -76,9 +76,6 @@ To learn more about Next.js, take a look at the following resources:
  - **Fullstack/Creative Code:** [valcoholics.eth ⛰](https://twitter.com/valcoholics1)
   - **Github:** [github.com/Valcoholics](https://github.com/Valcoholics)
 
-- **Caroline AZTECA Sirias**
- - **Fullstack/Backend:** [Azteca✨](https://twitter.com/aztech_princess)
-
 - **dasher ::)**
  - **Music Curation/Creative Director:** [dasher ::)](https://twitter.com/digitaldasherr)
   - **Github:** [github.com/digitaldasher](https://github.com/digitaldasher)
@@ -87,9 +84,9 @@ To learn more about Next.js, take a look at the following resources:
  - **Application Design:** [دياموند.eth](https://twitter.com/0xBey)
   - **Github:** https://github.com/rayadamas
 ---
-### Credits (editing)
+### Credits 
 1.  The code for creating the spectrograms borrows heavily from [this work](https://github.com/borismus/spectrogram) by Boris Smus.
-2.  Sweetman.eth music metadata standard
+2.  sweetman.eth, sirsu.eth, alez.eth, tranqui.eth, zora starter kit, artists in this project
 4.  Song recording by ______👈
 5.  Song recording by ______👈
 -------------------------------------------------------------------------------------------------------------------------------------------------
