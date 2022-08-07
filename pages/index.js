@@ -42,23 +42,25 @@ useEffect(() => {
             position: "absolute",
             top: "50%",
             left: "50%",
-            background: "white"
+            background: "white",
+            opacity:"0" // hide the drop splash
           }}
           >
           <img className="audioDrop"
-          src="../public/assets/zorb_purp.png"
+          src="../public/assets/zorb_purp.png" 
           style={{
             width: 400,
             maxWidth: "95vw",
-            height: "auto",
-            filter: "blur(10px)"
+            height: 400,
+            filter: "blur(10px)",
+            display: 'flex', justifyContent: 'center'
           }}
           />
           </div>
-          <div style={{ zIndex: 1, pointerEvents: "none" }}>
+          <div style={{ zIndex: 1, pointerEvents: "none", display: "flex", justifyContent: "center" }}>
             <svg
-            width={72}
-            height={72}
+            width={64}
+            height={64}
             viewBox="0 0 72 72"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -74,14 +76,14 @@ useEffect(() => {
             </svg>
           </div>
           <span
-          style={{ opacity: 1, zIndex: 1, color: "white", pointerEvents: "none" }}
+          style={{ margin: 3/12,opacity: 1, zIndex: 1, color: "white", pointerEvents: "none", display: 'flex', justifyContent: 'center' }}
           > 
-          Turn on, tune in, drop audio
+          Drop audio
 
           </span>
-          <span style={{ color: "white", opacity: "0.75", pointerEvents: "none" }}> .mp3 &amp; .wav accepted
+          <span style={{ margin: 3/12, color: "white", opacity: "0.75", pointerEvents: "none", display: 'flex', justifyContent: 'center' }}> .mp3 &amp; .wav accepted
           </span>
-          <input type="file" hidden="" accept=".png, .jpg, .mp3, .wav" />
+          <input type="file" hidden="" accept=".mp3" />
           </div>
         </div>
       </main>
