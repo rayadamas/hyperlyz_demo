@@ -15,7 +15,7 @@ const addressList = require('../merkle-tree-gen/addressList');
 
 const heavenly = "#40bedc"
 
-const Mint = () => {
+const mint = () => {
    
    const { mintQuantity, setMintQuantity } = useAppContext()
    const [accountHexProof, setAccountHexProof] = useState(); 
@@ -151,16 +151,13 @@ const Mint = () => {
    )
 
    return (
-      <div className=" bg-[url('../public/assets/background.jpg')] bg-cover min-h-screen h-screen text-[#40bedc]">
+      <div className="text-[#1a1b0a] bg-[url('../public/assets/background.jpg')] bg-cover  min-h-screen h-screen">
          <Header />
          <main className="h-full flex flex-col flex-wrap items-center justify-center  ">
             <div className="flex flex-col flex-wrap items-center">
-               <div className={`text-center p-8 mt-5 sm:mt-0 bg-white border-[16px] border-double border-[${heavenly}] font-gothiccc text-5xl sm:text-7xl h-fit w-fit flex flex-row justify-center`} >
-                  One of the Blessed
-               </div>
                <div className={`mt-10 mb-10 p-8  border-[16px] border-[${heavenly}] border-double bg-white min-w-fit sm:min-w-min  w-8/12 xl:w-6/12 h-fit  `}>
                   <div className="text-center text-4xl h-fit w-full flex flex-row justify-center " >
-                     Eternal Paradise Awaits
+                     
                   </div>
                   <div className="mt-8 w-full flex flex-row justify-center">
                      <MintQuantity colorScheme={heavenly}/>
@@ -188,34 +185,12 @@ const Mint = () => {
                            width="20px" 
                            src="/SVG-Loaders-master/svg-loaders/tail-spin.svg"
                         />
-                        <div className="w-full text-center">
-                           FZ Holders Mint Price: 0.02 Ξ
-                        </div>
-                        <div className="w-full text-center">
-                           Public Mint Price: 0.04 Ξ
-                        </div>                          
-                        <div className="w-full text-center">
-                           {`${MAX_SUPPLY - totalSupply}` + " / " + `${MAX_SUPPLY}` + " Pieces Remaining"}
-                        </div>
                      </div>   
                      ) : (                  
-                     <div className="text-xl sm:text-2xl mt-10 flex flex-row flex-wrap justify-center ">
-                        <div className="w-full text-center">
-                           FZ Holders Mint Price: 0.02 Ξ
-                        </div>
-                        <div className="w-full text-center">
-                           Public Mint Price: 0.04 Ξ
-                        </div>                          
-                        <div className="w-full text-center">
-                           {`${MAX_SUPPLY - totalSupply}` + " / " + `${MAX_SUPPLY}` + " Pieces Remaining"}
-                        </div>
+                     <div className="text-xl sm:text-2xl mt-10 flex flex-row flex-wrap justify-center ">                         
+
                      </div>                                          
                   )}                         
-                  <Link href="/decisions">
-                     <a className="mt-5 text-xl flex flex-row justify-center text-center">
-                        ← BACK TO HOME
-                     </a>
-                  </Link>
                </div>
             </div>
          </main>
@@ -224,4 +199,4 @@ const Mint = () => {
    );
 };
 
-export default Heaven;
+export default mint;
