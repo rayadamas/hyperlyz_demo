@@ -50,7 +50,6 @@ To learn more about Next.js, take a look at the following resources:
 - [ ] **🎤🎵🎤 On-chain Music ecosystems**
  - Exciting and innovative use of tools and strategies already out. Best on-chain Music hacks.
 - [ ] **💫👩‍🔬💫 NFT experiments**
-- [ ] Wild creative code, art, with an intersection of code, art and NFTs in general.
 
 ---
 ### Live App: https://hyperlyz.vercel.app
