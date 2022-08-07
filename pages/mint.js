@@ -15,7 +15,7 @@ const addressList = require('../merkle-tree-gen/addressList');
 
 const heavenly = "#40bedc"
 
-const Heaven = () => {
+const Mint = () => {
    
    const { mintQuantity, setMintQuantity } = useAppContext()
    const [accountHexProof, setAccountHexProof] = useState(); 
@@ -151,7 +151,7 @@ const Heaven = () => {
    )
 
    return (
-      <div className=" bg-[url('../public/assets/heaven-b-cropped.png')] bg-cover min-h-screen h-screen text-[#40bedc]">
+      <div className=" bg-[url('../public/assets/background.jpg')] bg-cover min-h-screen h-screen text-[#40bedc]">
          <Header />
          <main className="h-full flex flex-col flex-wrap items-center justify-center  ">
             <div className="flex flex-col flex-wrap items-center">

@@ -64,3 +64,21 @@ a:hover, a:focus, a:active {
    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
+canvas {
+   position: absolute;
+   /*background: black;
+   width: 500px;
+   height: 500px;*/
+ }
+
+#canvas{
+ background: black;
+}
+
+#demo{
+  height:540px;
+}
+
+.demo audio{
+  width: 100%;
+}
