@@ -213,7 +213,7 @@ const Heaven = () => {
                   )}                         
                   <Link href="/decisions">
                      <a className="mt-5 text-xl flex flex-row justify-center text-center">
-                        ← BACK TO PURGATORY
+                        ← BACK TO HOME
                      </a>
                   </Link>
                </div>
