@@ -57,20 +57,21 @@ To learn more about Next.js, take a look at the following resources:
 
 ---
 ### Team
-- **Valerie Andy**
+**Valerie Andy**
 - **Fullstack/Creative Code:** [valcoholics.eth ⛰](https://twitter.com/valcoholics1)
 - **Github:** [github.com/Valcoholics](https://github.com/Valcoholics)
 
-- **dasher ::)**
+**dasher ::)**
 - **Music Curation/Creative Director:** [dasher ::)](https://twitter.com/digitaldasherr)
 - **Github:** [github.com/digitaldasher](https://github.com/digitaldasher)
 
-- **Diamond Ray**
+**Diamond Ray**
 - **Application Design:** [دياموند.eth](https://twitter.com/0xBey)
 - **Github:** https://github.com/rayadamas
 
 ---
-### Credits 1. Team
+### Credits
+1. Team
 2. The code for creating the spectrograms borrows heavily from [this work](https://github.com/borismus/spectrogram) by Boris Smus.
 3. [sweetman.eth](https://twitter.com/sweetman_eth) [SweetmanTech](https://github.com/SweetmanTech/Onchain-Music-Metadata) **Music NFT On-Chain Metadata**
 4. [HVND SIRSU](https://twitter.com/sirsuhayb)
